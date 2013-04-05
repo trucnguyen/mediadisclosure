@@ -1,0 +1,85 @@
+body, p
+{
+	font-family: "Lucida Grande", Tahoma, Arial, sans-serif;
+	font-size: 11px;
+	line-height: 1.28em;
+	color: #3B5998;
+}
+
+div#story-table-div
+{
+	width: 770px;
+	padding: 10px;
+	margin: auto;
+	border: 1px solid #3B5998;
+}
+
+table td
+{
+	vertical-align: top;
+	padding: 5px;
+}
+
+table tr 
+{
+	border: 1px solid #3B5998;
+}
+
+
+th {
+	background: #D8DFEA;
+}
+
+th.cat-header, td.story-cell-left, td.story-cell-right
+{
+	width: 350px;
+}
+
+th.hide-header-left, td.hide-cell-left {
+	width: 680;
+}
+
+th.save-label {
+	width: 50px;
+}
+
+th.hide-header-right, td.hide-cell-right {
+	width: 100px;
+}
+
+.saved-art
+{
+	background-color: #f7f7f7;
+}
+
+.hidden-art, .hidden-art p
+{
+	background-color: #999;
+	color: #333;
+}
+
+.hidden-btn
+{
+	background-color: gray;
+	color: #000;
+	font-size: 14px;
+	width: 100%;
+}
+
+.hide-btn-active
+{
+	background-color: #8b9dc3;
+	border-color: #8b9dc3;
+	font-size: 14px;
+	width: 100%;
+}
+
+.save-box
+{
+	float: right;
+}
+
+.button-container {
+    display:block;
+    text-align:center;
+}
